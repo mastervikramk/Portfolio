@@ -118,6 +118,62 @@ body {
 #main_description p {
     text-align: justify;
 }
+#skills
+{
+    background-color: #35322f;
+    padding: 30px;
+}
+#skill_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skills{
+    background-color: #403d39;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    
+}
+.skills h2:hover{
+    color: #eb5e28;
+}
+.full{
+    background-color: #252422;
+    width: 80%;
+    margin: 0px 20px;
+    border-radius: 10px;
+    
+}
+.obtained{
+    background-color: #eb5e28;
+    border-radius: 10px;
+    font-size: 4px;
+    color: #eb5e28;
+}
+#cpp{
+    width: 80%;
+    
+}
+#py{
+    width: 70%;
+}
+#cc{
+    width: 65%;
+}
+#wind{
+    width: 98%;
+}
+#linux{
+    width: 80%;
+}
+#matlab{
+    width: 80%;
+}
+#Mathematica{
+    width: 70%;
+}
 
 @media screen and (max-width: 600px) {
     #all_content {
@@ -128,4 +184,19 @@ body {
         flex-direction: column;
         padding: 0px 0px;
     }
+    #skill_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .skills{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    #skills{
+        justify-content: center;
+    }
 }
+
