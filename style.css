@@ -29,7 +29,7 @@ body{
 }
 @media screen and (max-width: 600px) {
     #all_content
-{
+{   visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,4 +55,50 @@ body{
 #main_footer a {
     text-decoration: none;
     color: white;
+}
+#main_home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 30px;
+    
+}
+#pic_container
+{   display: flex;
+    flex-direction:column;
+    margin: 20px;
+    padding:10px;
+    align-content: space-between;
+    text-align: center;
+    width: 30%;
+
+
+}
+#main_description{
+    display: flex;
+    flex-direction: column;
+}
+#dp{
+    height: 300px;
+    border-radius: 100%;
+}
+#education{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+#edu{
+    margin: 10px;
+}
+#social_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+#social_profile i {
+    color: white;
+    font-size: x-large;
+}
+#main_description p{
+    text-align: justify;
 }
