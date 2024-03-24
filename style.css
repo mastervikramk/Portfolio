@@ -1,5 +1,6 @@
+
 body {
-    background-color: rgb(4, 32, 38);
+    background-color: #403d39;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     padding: 0;
@@ -11,19 +12,20 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(19, 9, 29);
+    background-color: #252422;
     padding: 0 20px;
 }
 
 #logo h1 {
     font-size: xx-large;
+    color: #eb5e28;
 }
 
 #all_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(19, 9, 29);
+    background-color: #252422;
 }
 
 .tabs {
@@ -44,7 +46,7 @@ body {
 
 .tabs a:hover {
     text-decoration: underline;
-    color: rgb(221, 151, 60);
+    color: #eb5e28;
 }
 
 #main_footer {
@@ -82,6 +84,9 @@ body {
     padding: 10px;
 }
 
+#name_holder h1{
+    font-size: xx-large;
+}
 #dp {
     height: 300px;
     border-radius: 50%; /* changed to 50% for a perfect circle */
