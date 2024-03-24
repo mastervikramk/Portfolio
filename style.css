@@ -126,9 +126,15 @@ body {
     text-align: justify;
 }
 #skills
-{
+{ 
+    text-align: center;
     background-color: #35322f;
     padding: 30px;
+}
+#skills h1{
+    color: #eb5e28;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 #skill_container{
     display: flex;
@@ -183,6 +189,57 @@ body {
     width: 70%;
 }
 
+
+
+#project h1{
+    color:#eb5e28;
+    text-align: center;
+}
+#project_container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#prject_card{
+    width: 30%;
+    background-color: #252422;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#projectimg{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#Project_title{
+    color: #eb5e28;
+    padding: 0px 10px;
+}
+#Project_description{
+    text-align: justify;
+    padding: 0px 10px;
+}
+#project_meta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#project_time{
+    font-style: italic;
+    color: #c2bab0;
+    padding: 0px 10px ;
+}
+#project_repo{
+    padding: 0px 10px ;
+}
+#project_repo a{
+    font-size: xx-large;
+    color: #c2bab0;
+}
 @media screen and (max-width: 600px) {
     #all_content {
         display: none;
@@ -213,5 +270,14 @@ body {
     #skills{
         justify-content: center;
     }
+    #dp{
+        border-radius: 50%;
+    }
+    #project_container{
+        display: flex;
+        flex-direction: column;
+    }
+    #prject_card{
+        width: 90%;
+    }
 }
-
