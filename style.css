@@ -48,7 +48,7 @@ body {
 
 #main_footer {
     background-color: #252422;
-    padding: 5px;
+    padding: 5px 20px;
     text-align: center;
 }
 
@@ -127,6 +127,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .skills{
     background-color: #403d39;
