@@ -183,6 +183,12 @@ body {
     #all_content {
         display: none;
     }
+    #main_description {
+        width: 90%;
+    }
+    #pic_container{
+        width: 90%;
+    }
 
     #main_home{
         flex-direction: column;
