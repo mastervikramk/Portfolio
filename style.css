@@ -1,104 +1,113 @@
-body{
+body {
     background-color: rgb(4, 32, 38);
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
-#maincontainer{
+
+#maincontainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(19, 9, 29);
-    padding: 0px 20px;
+    padding: 0 20px;
 }
-#logo h1{
+
+#logo h1 {
     font-size: xx-large;
 }
-#all_content
-{
+
+#all_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(19, 9, 29);
 }
-.tabs{
-    padding: 10px;
 
+.tabs {
+    padding: 10px;
 }
+
 @media screen and (max-width: 600px) {
-    #all_content
-{   visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(19, 9, 29);
+    #all_content {
+        display: none;
+    }
 }
-}
-.tabs a{
+
+.tabs a {
     text-decoration: none;
     color: white;
     font-size: x-large;
 }
-.tabs a:hover{
+
+.tabs a:hover {
     text-decoration: underline;
     color: rgb(221, 151, 60);
 }
-#main_footer
-{
+
+#main_footer {
     background-color: rgb(19, 9, 29);
     padding: 5px;
     text-align: center;
-    
 }
+
 #main_footer a {
     text-decoration: none;
     color: white;
 }
-#main_home{
+
+#main_home {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 20px 30px;
-    
 }
-#pic_container
-{   display: flex;
-    flex-direction:column;
-    margin: 20px;
-    padding:10px;
-    align-content: space-between;
-    text-align: center;
-    width: 30%;
 
-
-}
-#main_description{
+#pic_container {
     display: flex;
     flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
 }
-#dp{
-    height: 300px;
-    border-radius: 100%;
-}
-#education{
+
+#main_description {
+    width: 60%;
     display: flex;
-    flex-direction: row;
-    justify-content:space-around ;
+    flex-direction: column;
+    padding: 10px;
 }
-#edu{
+
+#dp {
+    height: 300px;
+    border-radius: 50%; /* changed to 50% for a perfect circle */
+}
+
+#education {
+    display: flex;
+    flex-wrap: wrap; /* added flex-wrap to wrap items when they exceed container width */
+    justify-content: space-around;
+}
+
+#edu {
     margin: 10px;
 }
-#social_icons{
+
+#social_icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
+    margin-top: 20px; /* added margin-top for better spacing */
 }
+
 #social_profile i {
     color: white;
     font-size: x-large;
 }
-#main_description p{
+
+#main_description p {
     text-align: justify;
 }
