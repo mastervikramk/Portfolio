@@ -50,6 +50,7 @@ body {
     background-color: #252422;
     padding: 5px 20px;
     text-align: center;
+    font-size: small;
 }
 
 #main_footer a {
@@ -102,6 +103,9 @@ body {
     margin: 10px;
 
     
+}
+#edu h2:hover{
+    color: #eb5e28;
 }
 #edu b,ul {
     line-height: 2px;
@@ -198,8 +202,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        
+    }
+    #edu{
+        width: 90%;
     }
     .skills{
         width: 90%;
