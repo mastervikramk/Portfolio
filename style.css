@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(4, 32, 38);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+#maincontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 0px 25px;
+}
+#all_content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.tabs{
+    padding: 10px;
+
+}
+@media screen and (max-width: 600px) {
+    #all_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+}
+.tabs a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+}
+.tabs a:hover{
+    text-decoration: underline;
+    color: rgb(221, 151, 60);
+}
