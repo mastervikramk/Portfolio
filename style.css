@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-color: rgb(19, 9, 29);
 }
 }
 .tabs a{
