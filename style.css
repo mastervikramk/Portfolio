@@ -32,11 +32,7 @@ body {
     padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    #all_content {
-        display: none;
-    }
-}
+
 
 .tabs a {
     text-decoration: none;
@@ -45,8 +41,9 @@ body {
 }
 
 .tabs a:hover {
-    text-decoration: underline;
+    text-decoration: dotted;
     color: #eb5e28;
+    font-weight: bold;
 }
 
 #main_footer {
@@ -120,4 +117,15 @@ body {
 
 #main_description p {
     text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    #all_content {
+        display: none;
+    }
+
+    #main_home{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
 }
