@@ -51,11 +51,12 @@ body {
     padding: 5px 20px;
     text-align: center;
     font-size: small;
+    color: rgb(110, 110, 110);
 }
 
 #main_footer a {
     text-decoration: none;
-    color: white;
+    color: rgb(110, 110, 110);
 }
 
 #main_home {
@@ -246,7 +247,7 @@ body {
 }
 @media screen and (max-width: 600px) {
     #all_content {
-        display: none;
+        visibility: none;
     }
     #main_description {
         width: 90%;
@@ -286,3 +287,4 @@ body {
         width: 90%;
     }
 }
+
